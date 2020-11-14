@@ -18,7 +18,7 @@ section {
   position: relative;
   width: 50%;
   height: 100%;
-  background: #000;
+  background: #af6b58;
   display: flex;
   justify-content: center;
   align-items: center;  
@@ -30,7 +30,7 @@ section {
   line-height: 1em;
 }
 .sec2 {
-  background: #d7fe3a;  
+  background: #556052;  
 }
 .sec2 h2{
   color: #000;  
@@ -49,6 +49,16 @@ section {
   position: relative;
   animation: animate 1s linear infinite;
 }
+.copyright{
+  font-size: large;
+  font-weight: bolder;
+  position: fixed;
+  left: 0;
+  bottom: 20%;
+  width: 100%;
+  color: #cbbcb1;
+  text-align: center;
+}
 @keyframes animate {
   0%,15% {
     opacity: 0;
@@ -58,6 +68,15 @@ section {
   }
 }
 @media (max-width: 768px) {
+  .copyright{
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    color: white;
+    text-align: center;
+  }
+ 
   section {
     flex-direction: column;
   }
